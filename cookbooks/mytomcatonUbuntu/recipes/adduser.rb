@@ -2,6 +2,8 @@ user 'tomcat' do
     comment 'this is tomcat user'
     home '/opt/tomcat'
     shell '/bin/false'
-    action :creat
+    action :create
 end
+
+
 
